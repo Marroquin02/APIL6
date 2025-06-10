@@ -13,7 +13,7 @@ import { PostModule } from './post/post.module';
     AuthModule,
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb://localhost:27017/moviles',
+      url: 'mongodb://mongodb:27017/moviles',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
